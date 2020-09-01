@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  Sun Wave
 //
-//  Created by Дмитрий Котырло on 19.06.2020.
+//  Created by VYSHNEVSKYI on 19.06.2020.
 //  Copyright © 2020 _vyshnevskyi. All rights reserved.
 //
 
 import UIKit
+import AVFoundation
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+        try? AVAudioSession.sharedInstance().setCategory(.ambient)
+        try? AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
         // Override point for customization after application launch.
         return true
     }

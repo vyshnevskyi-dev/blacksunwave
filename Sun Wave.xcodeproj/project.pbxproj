@@ -3,31 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		10170114249CFFAE001D8F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10170113249CFFAE001D8F1C /* AppDelegate.swift */; };
-		10170116249CFFAE001D8F1C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10170115249CFFAE001D8F1C /* GameScene.sks */; };
-		10170118249CFFAE001D8F1C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10170117249CFFAE001D8F1C /* Actions.sks */; };
-		1017011A249CFFAE001D8F1C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10170119249CFFAE001D8F1C /* GameScene.swift */; };
-		1017011C249CFFAE001D8F1C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017011B249CFFAE001D8F1C /* GameViewController.swift */; };
 		1017011F249CFFAE001D8F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1017011D249CFFAE001D8F1C /* Main.storyboard */; };
 		10170121249CFFB2001D8F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10170120249CFFB2001D8F1C /* Assets.xcassets */; };
 		10170124249CFFB2001D8F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10170122249CFFB2001D8F1C /* LaunchScreen.storyboard */; };
+		10170134249CFFFF001D8F1C /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017012B249CFFFE001D8F1C /* Floor.swift */; };
+		10170135249CFFFF001D8F1C /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017012C249CFFFE001D8F1C /* Score.swift */; };
+		10170136249CFFFF001D8F1C /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017012D249CFFFF001D8F1C /* Sound.swift */; };
+		10170137249CFFFF001D8F1C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017012E249CFFFF001D8F1C /* Enemy.swift */; };
+		10170138249CFFFF001D8F1C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017012F249CFFFF001D8F1C /* GameViewController.swift */; };
+		10170139249CFFFF001D8F1C /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10170130249CFFFF001D8F1C /* Background.swift */; };
+		1017013A249CFFFF001D8F1C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10170131249CFFFF001D8F1C /* GameScene.sks */; };
+		1017013B249CFFFF001D8F1C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10170132249CFFFF001D8F1C /* GameScene.swift */; };
+		1017013C249CFFFF001D8F1C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10170133249CFFFF001D8F1C /* Player.swift */; };
+		1017013F249D0EE2001D8F1C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1017013E249D0EE2001D8F1C /* sound.mp3 */; };
+		10170143249D0F25001D8F1C /* score - 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10170142249D0F24001D8F1C /* score - 2.mp3 */; };
+		10170147249D0F51001D8F1C /* game over - 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10170146249D0F51001D8F1C /* game over - 2.mp3 */; };
+		104A8F8A249F7AA600B268A8 /* Ad Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A8F89249F7AA600B268A8 /* Ad Config.swift */; };
+		342EABB79EB8B7A543A218AF /* Pods_Sun_Wave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D16A043D4B80ED085B132C /* Pods_Sun_Wave.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10170110249CFFAE001D8F1C /* Sun Wave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sun Wave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10170110249CFFAE001D8F1C /* Black Sun Wave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Sun Wave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10170113249CFFAE001D8F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10170115249CFFAE001D8F1C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		10170117249CFFAE001D8F1C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		10170119249CFFAE001D8F1C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		1017011B249CFFAE001D8F1C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1017011E249CFFAE001D8F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10170120249CFFB2001D8F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10170123249CFFB2001D8F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10170125249CFFB2001D8F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1017012B249CFFFE001D8F1C /* Floor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		1017012C249CFFFE001D8F1C /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		1017012D249CFFFF001D8F1C /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		1017012E249CFFFF001D8F1C /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		1017012F249CFFFF001D8F1C /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		10170130249CFFFF001D8F1C /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		10170131249CFFFF001D8F1C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		10170132249CFFFF001D8F1C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		10170133249CFFFF001D8F1C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1017013E249D0EE2001D8F1C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		10170142249D0F24001D8F1C /* score - 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "score - 2.mp3"; sourceTree = "<group>"; };
+		10170146249D0F51001D8F1C /* game over - 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game over - 2.mp3"; sourceTree = "<group>"; };
+		104A8F89249F7AA600B268A8 /* Ad Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ad Config.swift"; sourceTree = "<group>"; };
+		532BE7C0695BD3B08F18C4F9 /* Pods-Sun Wave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sun Wave.release.xcconfig"; path = "Target Support Files/Pods-Sun Wave/Pods-Sun Wave.release.xcconfig"; sourceTree = "<group>"; };
+		57D16A043D4B80ED085B132C /* Pods_Sun_Wave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sun_Wave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E03201CF7BDA91912D3E38 /* Pods-Sun Wave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sun Wave.debug.xcconfig"; path = "Target Support Files/Pods-Sun Wave/Pods-Sun Wave.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,24 +57,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342EABB79EB8B7A543A218AF /* Pods_Sun_Wave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08FE684C80AF7CD9E7D479C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E03201CF7BDA91912D3E38 /* Pods-Sun Wave.debug.xcconfig */,
+				532BE7C0695BD3B08F18C4F9 /* Pods-Sun Wave.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		10170107249CFFAE001D8F1C = {
 			isa = PBXGroup;
 			children = (
 				10170112249CFFAE001D8F1C /* Sun Wave */,
 				10170111249CFFAE001D8F1C /* Products */,
+				08FE684C80AF7CD9E7D479C7 /* Pods */,
+				29447B39D9664DF8EA221ACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		10170111249CFFAE001D8F1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10170110249CFFAE001D8F1C /* Sun Wave.app */,
+				10170110249CFFAE001D8F1C /* Black Sun Wave.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,16 +95,49 @@
 			isa = PBXGroup;
 			children = (
 				10170113249CFFAE001D8F1C /* AppDelegate.swift */,
-				10170115249CFFAE001D8F1C /* GameScene.sks */,
-				10170117249CFFAE001D8F1C /* Actions.sks */,
-				10170119249CFFAE001D8F1C /* GameScene.swift */,
-				1017011B249CFFAE001D8F1C /* GameViewController.swift */,
+				104A8F89249F7AA600B268A8 /* Ad Config.swift */,
+				1017013D249D000A001D8F1C /* Elements */,
+				10170131249CFFFF001D8F1C /* GameScene.sks */,
+				10170132249CFFFF001D8F1C /* GameScene.swift */,
+				104A8FDD24A21C2A00B268A8 /* Sound */,
+				1017012F249CFFFF001D8F1C /* GameViewController.swift */,
 				1017011D249CFFAE001D8F1C /* Main.storyboard */,
 				10170120249CFFB2001D8F1C /* Assets.xcassets */,
 				10170122249CFFB2001D8F1C /* LaunchScreen.storyboard */,
 				10170125249CFFB2001D8F1C /* Info.plist */,
 			);
 			path = "Sun Wave";
+			sourceTree = "<group>";
+		};
+		1017013D249D000A001D8F1C /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				10170130249CFFFF001D8F1C /* Background.swift */,
+				1017012E249CFFFF001D8F1C /* Enemy.swift */,
+				1017012B249CFFFE001D8F1C /* Floor.swift */,
+				10170133249CFFFF001D8F1C /* Player.swift */,
+				1017012C249CFFFE001D8F1C /* Score.swift */,
+				1017012D249CFFFF001D8F1C /* Sound.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		104A8FDD24A21C2A00B268A8 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1017013E249D0EE2001D8F1C /* sound.mp3 */,
+				10170142249D0F24001D8F1C /* score - 2.mp3 */,
+				10170146249D0F51001D8F1C /* game over - 2.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		29447B39D9664DF8EA221ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D16A043D4B80ED085B132C /* Pods_Sun_Wave.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10170128249CFFB2001D8F1C /* Build configuration list for PBXNativeTarget "Sun Wave" */;
 			buildPhases = (
+				AF55AB6D425AD84133FC45E8 /* [CP] Check Pods Manifest.lock */,
 				1017010C249CFFAE001D8F1C /* Sources */,
 				1017010D249CFFAE001D8F1C /* Frameworks */,
 				1017010E249CFFAE001D8F1C /* Resources */,
+				6AAEE611C2D7923C78F9F5E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,7 +159,7 @@
 			);
 			name = "Sun Wave";
 			productName = "Sun Wave";
-			productReference = 10170110249CFFAE001D8F1C /* Sun Wave.app */;
+			productReference = 10170110249CFFAE001D8F1C /* Black Sun Wave.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,24 +200,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1017013A249CFFFF001D8F1C /* GameScene.sks in Resources */,
 				1017011F249CFFAE001D8F1C /* Main.storyboard in Resources */,
-				10170116249CFFAE001D8F1C /* GameScene.sks in Resources */,
+				10170147249D0F51001D8F1C /* game over - 2.mp3 in Resources */,
 				10170121249CFFB2001D8F1C /* Assets.xcassets in Resources */,
+				1017013F249D0EE2001D8F1C /* sound.mp3 in Resources */,
+				10170143249D0F25001D8F1C /* score - 2.mp3 in Resources */,
 				10170124249CFFB2001D8F1C /* LaunchScreen.storyboard in Resources */,
-				10170118249CFFAE001D8F1C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AAEE611C2D7923C78F9F5E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sun Wave/Pods-Sun Wave-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sun Wave/Pods-Sun Wave-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sun Wave/Pods-Sun Wave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF55AB6D425AD84133FC45E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sun Wave-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1017010C249CFFAE001D8F1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1017011A249CFFAE001D8F1C /* GameScene.swift in Sources */,
-				1017011C249CFFAE001D8F1C /* GameViewController.swift in Sources */,
+				10170134249CFFFF001D8F1C /* Floor.swift in Sources */,
+				10170139249CFFFF001D8F1C /* Background.swift in Sources */,
+				1017013B249CFFFF001D8F1C /* GameScene.swift in Sources */,
+				10170137249CFFFF001D8F1C /* Enemy.swift in Sources */,
+				10170135249CFFFF001D8F1C /* Score.swift in Sources */,
+				104A8F8A249F7AA600B268A8 /* Ad Config.swift in Sources */,
 				10170114249CFFAE001D8F1C /* AppDelegate.swift in Sources */,
+				10170138249CFFFF001D8F1C /* GameViewController.swift in Sources */,
+				1017013C249CFFFF001D8F1C /* Player.swift in Sources */,
+				10170136249CFFFF001D8F1C /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,37 +410,49 @@
 		};
 		10170129249CFFB2001D8F1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E03201CF7BDA91912D3E38 /* Pods-Sun Wave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = CJ3SWT396U;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Sun Wave/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-vyshnevskyi.Sun-Wave";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyshnevskyi.blacksunwave;
+				PRODUCT_NAME = "Black Sun Wave";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1017012A249CFFB2001D8F1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532BE7C0695BD3B08F18C4F9 /* Pods-Sun Wave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = CJ3SWT396U;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Sun Wave/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-vyshnevskyi.Sun-Wave";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyshnevskyi.blacksunwave;
+				PRODUCT_NAME = "Black Sun Wave";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
